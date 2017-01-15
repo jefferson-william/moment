@@ -4296,6 +4296,8 @@ hooks.relativeTimeThreshold = getSetRelativeTimeThreshold;
 hooks.calendarFormat        = getCalendarFormat;
 hooks.prototype             = proto;
 
+window.moment = hooks;
+
 return hooks;
 
 })));
